@@ -27,6 +27,7 @@ Feature: Navigate to Menu with Parameters
 
 
     #Class Task -->  Create Navigate to menu with parameters feature test with Scenario Outline
+  @smoke
   Scenario Outline: User Navigates Different Menu
     When The user logs in using "<userType>" and "<password>"
     Then The welcome message contains "<name>"
