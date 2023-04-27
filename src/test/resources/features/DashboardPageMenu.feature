@@ -20,8 +20,8 @@ Feature: Dashboard Page Menu
     Then The user should be able to login
     And The user should be able to see following menu
       | Developers  |
-      | All Posts    |
-      | My Account |
+      | All Post    |
+      | My Accounts |
 
   Scenario: User should be able to see editAdd Menu in the Dashboard page
     Given The user is on the login page
