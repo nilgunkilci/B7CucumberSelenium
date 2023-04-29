@@ -16,7 +16,7 @@ Feature: The user should be able to edit profile
     And The user add "githubusername" "intern23"
     And The user add "bio" "New Company, new adventure"
    # And The user clicks submit button
-
+@wip
   Scenario Outline: edit profile with scenario outline
     And The user logs in using "<email>" and "<password>"
     When The user navigates to "<edit add module>" menu

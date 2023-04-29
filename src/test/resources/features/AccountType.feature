@@ -8,13 +8,13 @@ Feature: Account Type
    # Given The user is on the login page
     When The user logs in using "eurotech@gmail.com" and "Test12345!"
     Then The welcome message contains "Teacher"
-
+@user
   Scenario: Student user
     #Given The user is on the login page
     When The user logs in using "student@study.net" and "Test1234"
     Then The welcome message contains "Student"
 
-
+@user
   Scenario: Developer user
     #Given The user is on the login page
     When The user logs in using "developer@developer.net" and "Test1234"
