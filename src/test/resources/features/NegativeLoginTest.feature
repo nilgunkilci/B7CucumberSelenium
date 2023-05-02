@@ -6,6 +6,7 @@ Feature: Negative Login Test
   # eurotec@gmail.com
   # Do not forget to take the messages which show the result as negative
   # Create Step Def class and if needed create locators and methods in related page class
+  #türkce karakterler oldugu icin mesaj icinde tek tirnak icinealdik
 
   Scenario Outline: Negative Login Test
     Given The user is on the login page

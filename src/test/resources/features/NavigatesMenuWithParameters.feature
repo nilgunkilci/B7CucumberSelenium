@@ -9,7 +9,7 @@ Feature: Navigate to Menu with Parameters
     Then The welcome message contains "Teachers"
     And The user navigates to "Developers" menu
     Then The user should be able to see header as "Filter Profiles by Skill or by Locations"
-  @rerun @wip
+  @rerun
   Scenario: User navigates to Student Menu
     #Given The user is on the login page
     When The user logs in using "student@study.net" and "Test1234"
